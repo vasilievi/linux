@@ -71,7 +71,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Курс подготовки',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -83,33 +83,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Примеры билетов',
-          items: [
-            {
-              label: 'Сборник задач',
-              href: 'https://v8.1c.ru/metod/books/106055.htm',
-            },
-          ],
-        }, 
-        {
-          title: 'Основа для решения задач',
-          items: [
-            {
-              label: 'Каркасная конфигурация',
-              href: 'https://static.1c.ru/rus/partners/training/files/new_carcass_8_3_25_1445.dt',
-            },
-          ],
-        },
-        {
-          title: 'Ознакомиться перед экзаменом',
-          items: [
-            {
-              label: 'Требования к экзамену',
-              href: 'https://static.1c.ru/rus/partners/training/files/ATT83PL.rtf',
-            },
-          ],
-        },
       ],
       copyright: `${new Date().getFullYear()} | ПрофКейс | pcs.ru`,
     },
