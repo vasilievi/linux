@@ -1,0 +1,12 @@
+
+
+wget https://repo.postgrespro.ru/1c/1c-18/keys/pgpro-repo-add.sh
+sh pgpro-repo-add.sh
+apt-get install postgrespro-1c-18
+
+
+sudo systemctl status postgrespro-1c-18
+
+sudo -u postgres psql
+
+ALTER USER postgres WITH PASSWORD 'Qwe!123'
