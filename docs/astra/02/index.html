@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Установка и настройка 1С | Linux</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://vasilievi.github.io/linux/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://vasilievi.github.io/linux/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://vasilievi.github.io/linux/docs/astra/02"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Установка и настройка 1С | Linux"><meta data-rh="true" name="description" content="Загрузка и установка дистрибутивов"><meta data-rh="true" property="og:description" content="Загрузка и установка дистрибутивов"><link data-rh="true" rel="icon" href="/linux/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://vasilievi.github.io/linux/docs/astra/02"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/linux/docs/astra/02" hreflang="ru"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/linux/docs/astra/02" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Astra Linux Смоленск","item":"https://vasilievi.github.io/linux/docs/category/astra-linux-смоленск"},{"@type":"ListItem","position":2,"name":"Установка и настройка 1С","item":"https://vasilievi.github.io/linux/docs/astra/02"}]}</script><link rel="stylesheet" href="/linux/assets/css/styles.8c1dd5bc.css">
-<script src="/linux/assets/js/runtime~main.935d9020.js" defer="defer"></script>
+<script src="/linux/assets/js/runtime~main.4ed443cc.js" defer="defer"></script>
 <script src="/linux/assets/js/main.c5cc59dd.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -76,6 +76,10 @@
 </ul>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wget https://repo.postgrespro.ru/1c/1c-18/keys/pgpro-repo-add.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sh pgpro-repo-add.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">apt-get install postgrespro-1c-18</span><br></span></code></pre></div></div>
 <ul>
+<li class="">
+<p>настраиваем доступ
+<img decoding="async" loading="lazy" alt="install" src="/linux/assets/images/2025-11-27_12-44-24-8f55b5dac263a862f46094b85b67460a.png" width="896" height="703" class="img_ev3q"></p>
+</li>
 <li class="">
 <p>проверяем службу;
 sudo systemctl enable postgrespro-1c-18
